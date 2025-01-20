@@ -5,9 +5,12 @@
     border-style: dotted;
 
 
+
 }
 
-root {}
+:root {
+    --dis-primary-color: #3161e0;
+}
 
 body {
     height: 100%;
@@ -16,8 +19,7 @@ body {
 /*header*/
 header {
 
-    /*i tried using var but failed*/
-    background-color: cyan;
+    background-color: var(--dis-primary-color);
     padding: 3rem;
 
 }
@@ -29,12 +31,31 @@ header {
     div {
         padding: 1rem;
         min-height: 40px;
-        background-color: orange;
-        flex-grow: 1;
+
         text-align: center;
+    }
+
+    .link {
+        flex-grow: 1;
+
+        a {
+            text-decoration: none;
+            color: white;
+            margin: 1rem;
+        }
+
+        a:hover {
+            text-decoration: underline;
+
+        }
 
 
 
+    }
+
+    input {
+        padding: 10px 15px;
+        border-radius: 20px;
     }
 }
 
