@@ -13,6 +13,7 @@
     --dis-primary-color: #3161e0;
     --dis-accent-color: #23272a;
     --dic-lighter-color: #f6f6f6;
+    --dis-special-color: #8ea1e1;
 }
 
 body {
@@ -21,6 +22,7 @@ body {
 
 /*header*/
 header {
+    min-width: 1200px;
     background-color: var(--dis-primary-color);
     padding: 3rem;
 }
@@ -153,7 +155,7 @@ header {
 .technology_container {
     min-height: 1000px;
     width: 100%;
-    background-color: rgb(162, 161, 156);
+    background-color: var(--dic-lighter-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,7 +163,17 @@ header {
     div {
         min-height: 900px;
         min-width: 1200px;
-        background-color: green;
+        text-align: center;
+
+        p {
+            margin-top: 2rem;
+        }
+    }
+
+    input {
+        margin-top: 3rem;
+        color: white;
+        background-color: var(--dis-special-color);
     }
 
 }
@@ -210,4 +222,5 @@ header {
         background-color: rgb(233, 130, 130);
         text-align: center;
     }
+
 }
