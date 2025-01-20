@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     border-style: dotted;
+    font-family: Arial, Helvetica, sans-serif;
 
 
 
@@ -10,6 +11,7 @@
 
 :root {
     --dis-primary-color: #3161e0;
+    --dis-accent-color: #23272a;
 }
 
 body {
@@ -18,10 +20,8 @@ body {
 
 /*header*/
 header {
-
     background-color: var(--dis-primary-color);
     padding: 3rem;
-
 }
 
 .header-container {
@@ -63,17 +63,36 @@ header {
 .jumbotron-container {
     min-height: 500px;
     width: 100%;
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
 
     div {
         min-height: 400px;
-        min-width: 900px;
-        background-color: rgb(197, 29, 133);
+        min-width: 300px;
+        text-align: center;
+        color: white;
+        padding: 1rem;
 
+        p {
+            margin-top: 10px;
+        }
     }
+}
+
+.mac {
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.apri {
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--dis-accent-color);
 }
 
 .invite_only {
