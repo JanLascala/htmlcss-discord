@@ -179,10 +179,13 @@ header {
 
 }
 
+footer {
+    background-color: var(--dis-accent-color);
+}
+
 /*footer*/
 .Footer_container {
     min-height: 500px;
-    background-color: var(--dis-accent-color);
     padding: 3rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
@@ -221,13 +224,12 @@ li {
 /*bottom footer*/
 hr {
     border: 1px solid var(--dis-special-color);
-    background-color: var(--dis-accent-color);
+    margin: 40px;
+
 }
 
 .bottom_container {
     height: 100px;
-    display: flex;
-    background-color: var(--dis-accent-color);
     display: flex;
     justify-content: center;
     align-items: end;
@@ -236,14 +238,12 @@ hr {
 #line {
     min-height: 60px;
     min-width: 1000px;
-    background-color: var(--dis-accent-color);
     display: flex;
     justify-content: center;
     justify-content: space-between;
     align-items: center;
 
     div {
-        background-color: var(--dis-accent-color);
         text-align: center;
     }
 
