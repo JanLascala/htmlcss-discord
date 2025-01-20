@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-style: dotted;
+
+
+}
+
+root {}
+
+body {
+    height: 100%;
+}
+
+/*header*/
+header {
+
+    /*i tried using var but failed*/
+    background-color: cyan;
+    padding: 3rem;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+
+    div {
+        padding: 1rem;
+        min-height: 40px;
+        background-color: orange;
+        flex-grow: 1;
+        text-align: center;
+
+
+
+    }
+}
+
+/*jumbotron*/
+.jumbotron-container {
+    min-height: 500px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        min-height: 400px;
+        min-width: 900px;
+        background-color: rgb(197, 29, 133);
+
+    }
+}
+
+.invite_only {
+    min-height: 600px;
+    min-width: 100%;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt_container {
+    min-height: 500px;
+    min-width: 500px;
+    background-color: pink;
+}
+
+.img_container {
+    min-height: 500px;
+    min-width: 700px;
+    background-color: rgb(92, 178, 232);
+
+}
+
+/*community*/
+.community-container {
+    min-height: 600px;
+    min-width: 100%;
+    background-color: rgb(162, 161, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*fandom*/
+.fandom {
+    min-height: 600px;
+    min-width: 100%;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*technology*/
+
+.technology_container {
+    min-height: 1000px;
+    width: 100%;
+    background-color: rgb(162, 161, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        min-height: 900px;
+        min-width: 1200px;
+        background-color: green;
+    }
+
+}
+
+/*footer*/
+.Footer_container {
+    min-height: 500px;
+    background-color: rgb(58, 56, 56);
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        min-width: 230px;
+        min-height: 500px;
+        background-color: rgb(30, 157, 226);
+    }
+
+    .special_footer {
+        background-color: pink;
+        width: 300px;
+    }
+}
+
+.bottom_container {
+    height: 100px;
+    display: flex;
+    background-color: rgb(58, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#line {
+    min-height: 60px;
+    min-width: 1000px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        background-color: rgb(233, 130, 130);
+        text-align: center;
+    }
+}
