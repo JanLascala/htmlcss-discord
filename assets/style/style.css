@@ -67,7 +67,7 @@ header {
 .jumbotron-container {
     width: 100%;
     background-image: url(../img/jumbo.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
