@@ -12,6 +12,7 @@
 :root {
     --dis-primary-color: #3161e0;
     --dis-accent-color: #23272a;
+    --dic-lighter-color: #f6f6f6;
 }
 
 body {
@@ -78,7 +79,8 @@ header {
         padding: 1rem;
 
         p {
-            margin-top: 10px;
+            margin-top: 20px;
+            font-size: 20px;
         }
     }
 }
@@ -98,7 +100,7 @@ header {
 .invite_only {
     min-height: 600px;
     min-width: 100%;
-    background-color: rgb(237, 237, 237);
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,13 +109,21 @@ header {
 .txt_container {
     min-height: 500px;
     min-width: 500px;
-    background-color: pink;
+    padding: 4rem;
+    text-align: justify;
+
+
+    p {
+        margin-top: 5px;
+        font-size: 16px;
+    }
+
 }
 
 .img_container {
     min-height: 500px;
     min-width: 700px;
-    background-color: rgb(92, 178, 232);
+
 
 }
 
@@ -121,7 +131,7 @@ header {
 .community-container {
     min-height: 600px;
     min-width: 100%;
-    background-color: rgb(162, 161, 156);
+    background-color: var(--dic-lighter-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +141,7 @@ header {
 .fandom {
     min-height: 600px;
     min-width: 100%;
-    background-color: rgb(237, 237, 237);
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
